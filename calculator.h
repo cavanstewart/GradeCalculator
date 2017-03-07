@@ -1,4 +1,4 @@
-
+/*
 #ifndef CALCULATOR
 #define CALCULATOR
 
@@ -6,6 +6,7 @@
 #include <QWidget>
 #include <QObject>
 #include <QMainWindow>
+#include <QLabel>
 namespace Ui{
 class Calculator;
 }
@@ -19,7 +20,7 @@ public:
 private slots:
     void compute_hw(int grade);
     void compute_midterms(int grade);
-    void compute_final(int grader);
+    void compute_final(int grade);
 	void compare_grade_schemes();
 
 	friend void compute_overall_score(const string& grades, const string& log);
@@ -40,3 +41,4 @@ private:
  
 
 #endif
+*/

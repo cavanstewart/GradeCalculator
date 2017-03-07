@@ -1,4 +1,5 @@
-#include "hw1.h"
+/*
+#include "calculator.h"
 
 //default constructor
 GradeCalc::GradeCalc(){
@@ -12,10 +13,6 @@ GradeCalc::GradeCalc(){
 	final_grade = 0.0;
 }
 
-/*takes a file input stream as a parameter
-adds up 8 numbers from the file stream and subtracts the minimum value
-changes a private variable to the hw percentage of the total grade
-*/
 void GradeCalc::compute_hw(int grade){
 	const double MAX_SCORE = 20.0;
 	const double HW_PERCENT = 25.0;
@@ -33,12 +30,7 @@ void GradeCalc::compute_hw(int grade){
 	this->hw_percent = ((total - min) * HW_PERCENT) / (HW_NUM * MAX_SCORE);
 }
 
-/*takes a file input stream as a parameter
-stores 2 numbers from the file stream into an array
-compares the 2 numbers and stores the highest
-changes the private variable to midterm percentage for scheme A
-changes another private variable to midterm percentage for scheme B
-*/
+
 void GradeCalc::compute_midterms(ifstream& fin){
 	const double MAX_SCORE = 100.0;
 	const double MID_PERCENT_A = 40.0;
@@ -102,3 +94,4 @@ void compute_overall_score(const string& grades, const string& log){
 	fout.close();
 }
 */
+

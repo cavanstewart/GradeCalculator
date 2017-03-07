@@ -24,10 +24,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp \
-    calculator.cpp
+        mainwindow.cpp
 
-HEADERS  += mainwindow.h \
-    calculator.h
+HEADERS  += mainwindow.h
 
 FORMS    += mainwindow.ui
