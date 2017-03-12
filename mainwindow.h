@@ -17,6 +17,7 @@ public:
     ~MainWindow();
 public slots:
     void calculateGrade();
+    void changeScheme();
 
 private:
     Ui::MainWindow *ui;

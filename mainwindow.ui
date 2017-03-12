@@ -505,6 +505,16 @@
      <string>0</string>
     </property>
    </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>50</y>
+      <width>200</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
    <zorder>horizontalSlider</zorder>
    <zorder>horizontalSlider_2</zorder>
    <zorder>horizontalSlider_3</zorder>
@@ -540,6 +550,7 @@
    <zorder>label_11</zorder>
    <zorder>label_12</zorder>
    <zorder>label_13</zorder>
+   <zorder>comboBox</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
