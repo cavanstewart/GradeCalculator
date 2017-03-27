@@ -463,7 +463,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Midterm 1</string>
+     <string>Midterm 2</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_11">
@@ -515,6 +515,19 @@
      </rect>
     </property>
    </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>220</y>
+      <width>60</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Project</string>
+    </property>
+   </widget>
    <zorder>horizontalSlider</zorder>
    <zorder>horizontalSlider_2</zorder>
    <zorder>horizontalSlider_3</zorder>
@@ -551,6 +564,7 @@
    <zorder>label_12</zorder>
    <zorder>label_13</zorder>
    <zorder>comboBox</zorder>
+   <zorder>label_14</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
